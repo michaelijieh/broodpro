@@ -6,9 +6,9 @@ function App() {
 
   return (
     <>
-    <div className='logo'>
-      <img className='logo photo' src={logo} alt='logo'/>
-      {/* <img src={logoText} alt='logo text'/>  */}
+    <div>
+      <img src={logo} alt='logo'/>
+      <img src={logoText} alt='logo text'/>
 
     </div>
     <p>Platform for student financial aid</p>
