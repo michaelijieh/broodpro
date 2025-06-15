@@ -1,10 +1,11 @@
 import './App.css'
+import logo from '../public/Frame 66.png'
 
 function App() {
 
   return (
     <>
-    <h1>Brood pro</h1>
+    <img src={logo} alt='logo'/>
     <p>Platform for student financial aid</p>
     <h2 style={{color: 'grey'}}>Coming soon...</h2>
   
