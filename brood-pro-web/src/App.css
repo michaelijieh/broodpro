@@ -4,3 +4,14 @@
   padding: 2rem;
   text-align: center;
 }
+
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo.photo {
+  width: 96px;
+}
