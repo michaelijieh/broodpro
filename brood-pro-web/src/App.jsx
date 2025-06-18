@@ -6,11 +6,16 @@ function App() {
 
   return (
     <>
-    <div className='logo-text'>
-      <img src={logo} alt='logo'/>
-      <h1>Broodpro</h1>
+    <div className='logo'>
+      <img className="logo-photo" src={logo} alt='logo'/>
+      <h1 className='logo-text'>Broodpro</h1>
     </div>
-    <p>Platform for student financial aid</p>
+    <body>
+        <h1 className='hero-text'>Stay in</h1>
+        <h1 className='hero-text'>school</h1>
+        <h1 className='hero-text'>peeps</h1>
+    </body>
+    <p>And yes. We can help you stay</p>
     <h2 style={{color: 'grey'}}>Coming soon...</h2>
   
     </>

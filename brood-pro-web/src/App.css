@@ -6,27 +6,52 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  color:red;
+  color: #2F4858;
+  
 }
 
+body {
+  padding: 0;
+  margin: 0;
+}
 
 .logo {
   display: flex;
   align-items: center;
 }
 
-.logo.photo {
-  width: 96px;
+.logo-photo {
+  width: 32px;
+  height: 32px;
 }
 
 h1 {
-  font-family:'Times New Roman', Times, serif;
   font-family:'Inter';
-  font-weight: 900;
-  font-style: italic;
+
 }
 
 .logo-text {
+  width: auto;
   display: flex;
   justify-content: center;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 20px;
+
+}
+
+.hero-text {
+  width: auto;
+  font-weight: 900;
+  font-size: 104px;
+  font-style: italic;
+  /* width: 30rem; */
+  word-wrap: break-word;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  letter-spacing: -5%;
+  line-height: 0.8;
+  white-space: none;
+  word-spacing: no-wrap;
 }
