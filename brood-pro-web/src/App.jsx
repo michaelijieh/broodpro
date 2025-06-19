@@ -31,16 +31,17 @@ function App() {
           <div className='hero-container'>
             <div className='hero-section'>
               <div className='hero-text-container'>
-                <h1 className='hero-text'>Stay in</h1>
-                <h1 className='hero-text'>school</h1>
-                <h1 className='hero-text'>peeps</h1>
+                <h1 className='hero-text'>Stay in school peeps</h1>
+                {/* <h1 className='hero-text'>school</h1>
+                <h1 className='hero-text'>peeps</h1> */}
               </div>
               <p className='hero-subtext'>And yes. We can help make that a reality.</p>
             </div>
             <div className='button-container'><p className='button-text'>Join the program</p></div>
           </div>
+          
       </body>
-      <div className='hero-image'><img src={heroImage} alt='graduants'/></div>
+      {/* <div className='hero-image'><img src={heroImage} alt='graduants'/></div> */}
     {/* <h2 style={{color: 'grey'}}>Coming soon...</h2> */}
     </>
   )
